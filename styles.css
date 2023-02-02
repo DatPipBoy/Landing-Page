@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: darkgray;
 }
 
 img {
@@ -7,13 +8,9 @@ img {
     max-height: 100%;
 }
 
-.p1 {
-    display: flex;
-    width: 350px;
-}
-
 .alfa {
-    padding-left: 50px;
+    border-radius:5px;
+    margin-left: 50px;
     max-width: 20%;
     max-height: 20%;
 }
@@ -52,7 +49,23 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-items: center;
 }
+
+.Body-Image {
+    border-radius: 5px;
+}
+
+.p1 {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.p1-body {
+    width: 600px;
+    font-size: 25px;
+}
+
 
 .info {
     padding-top: 50px;
@@ -74,10 +87,72 @@ a {
     align-items: center;
 }
 
+.text {
+    font-size: 18px;
+}
+
 .one, .two, .three, .four {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.spectators, .Karting, .GT3, .Formula {
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.Section-3 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightgray;
+}
+
+.quote, .quote-end {
+    font-size: 100px;
+}
+
+.quote-end {
+    display: flex;
+    align-items: flex-end;
+}
+
+.p3 {
+    font-size: 35px;
+    width: 800px;
+}
+
+.p4 {
+    display: flex;
+    align-items: flex-end;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.Section-4 {
+    border: 2px;
+    border-radius: 5px;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 650px;
+    height: 100px;
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+footer {
+    background-color: #6d9bc3;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
 }
