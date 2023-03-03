@@ -8,6 +8,30 @@ img {
     max-height: 100%;
 }
 
+.button {
+    background-color: firebrick;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+  }
+
+  .button-2 {
+    background-color: darkgray;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+  }
+
 .alfa {
     border-radius:5px;
     margin-left: 50px;
